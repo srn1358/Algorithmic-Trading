@@ -24,11 +24,17 @@ We need to first install the following dependencies.
 We initially used the short window of SMA to be 4 periods and the long window to be 100 periods. Then we used the first three month of the data to train our model for being used in the SVM classifier. We made a graph to compare the return of  strategy developed by the model with the actual return. 
 Here is the results:
 ![Baseline SVM](./SVM_Baseline_plot.png) 
+
+
 We changed the classifier from SVM to Logistic regression and we made the same plot. Here is the results:
 ![Baseline LR](./LR_Original_Parameters_plot.png)
+
+
 We tuned the training algorithm by adjusting the size of the training dataset, and this time using the first 4 month of the data to train our SVM model.
 Here is the resulting plot:
 ![Tuned training data and SVM](./SVM_Tuned_training_plot.png)
+
+
 In the next step, we changed the short and the long window of SMA and with that changed our features.
 Here is the resulting plot:
 ![Tuned features and SVM](./tuned_SMA_plot_SVM.png)
