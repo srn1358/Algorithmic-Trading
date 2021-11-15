@@ -23,10 +23,12 @@ We need to first install the following dependencies.
 ##  Summary Evaluation Method
 We initially used the short window of SMA to be 4 periods and the long window to be 100 periods. Then we used the first three month of the data to train our model for being used in the SVM classifier. We made a graph to compare the return of  strategy developed by the model with the actual return. 
 Here is the results:
+
 ![Baseline SVM](./SVM_Baseline_plot.png) 
 
 
 We changed the classifier from SVM to Logistic regression and we made the same plot. Here is the results:
+
 ![Baseline LR](./LR_Original_Parameters_plot.png)
 
 
@@ -40,12 +42,13 @@ In the next step, we changed the short and the long window of SMA and with that 
 ![Tuned features and SVM](./tuned_SMA_plot_SVM.png)
 
 ## Total Cumulative Return
-Original SVM	0.761652
-Original LR     0.730676
-Tuned Training 	0.578582
-Tuned Features	0.385827
-Actual Return	0.610014
-Tuned features	0.385827
+ Original SVM	   0.761652     
+ Original LR     0.730676    
+ Tuned Training 	0.578582    
+ Tuned Features	0.385827    
+ Actual Return	0.610014    
+ Tuned features	0.385827  
+   
 
 ## Conclusion
 By looking at the graphs, the models that are using the original parameters, outperform the ones with the tuned parameters. Looking at the ultimate cumulative returns shows that SVM classification provides a more lucrative algorithm.
