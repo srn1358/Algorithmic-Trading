@@ -30,8 +30,8 @@ We changed the classifier from SVM to Logistic regression and we made the same p
 ![Baseline LR](./LR_Original_Parameters_plot.png)
 
 
-We tuned the training algorithm by adjusting the size of the training dataset, and this time using the first 4 month of the data to train our SVM model.
-Here is the resulting plot:
+We tuned the training algorithm by adjusting the size of the training dataset, and this time using the first 4 month of the data to train our SVM model. Here is the resulting plot:
+
 ![Tuned training data and SVM](./SVM_Tuned_training_plot.png)
 
 
