@@ -38,3 +38,14 @@ We tuned the training algorithm by adjusting the size of the training dataset, a
 In the next step, we changed the short and the long window of SMA and with that changed our features. Here is the resulting plot:
 
 ![Tuned features and SVM](./tuned_SMA_plot_SVM.png)
+
+## Total Cumulative Return
+Original SVM	0.761652
+Original LR     0.730676
+Tuned Training 	0.578582
+Tuned Features	0.385827
+Actual Return	0.610014
+Tuned features	0.385827
+
+## Conclusion
+By looking at the graphs, the models that are using the original parameters, outperform the ones with the tuned parameters. Looking at the ultimate cumulative returns shows that SVM classification provides a more lucrative algorithm.
