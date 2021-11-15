@@ -35,6 +35,6 @@ We tuned the training algorithm by adjusting the size of the training dataset, a
 ![Tuned training data and SVM](./SVM_Tuned_training_plot.png)
 
 
-In the next step, we changed the short and the long window of SMA and with that changed our features.
-Here is the resulting plot:
+In the next step, we changed the short and the long window of SMA and with that changed our features. Here is the resulting plot:
+
 ![Tuned features and SVM](./tuned_SMA_plot_SVM.png)
