@@ -1,6 +1,6 @@
-# Challenge_14
- In this module, we learned how to develop trading algorithm with some of the well-known technical indicators. 
- In this practice we used different machine learning techniques to classify our data points to signal buying or selling by using simple moving average of the percentage returns as the features of the model.
+# Algorithmic Trading- Technical Analysis
+ In this challenge, I made trading algorithms with some of the well-known technical indicators. 
+ I used different machine learning techniques to classify our data points to signal buying or selling by using simple moving average of the percentage returns as the features of the model.
 
 ## Installation Guide
 We need to first install the following dependencies.
